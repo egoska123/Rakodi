@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Rakodi/static/css/main.34d6c57f.css",
-    "main.js": "/Rakodi/static/js/main.5f0547ae.js",
+    "main.js": "/Rakodi/static/js/main.313ddd71.js",
     "static/media/video_2025-03-15_02-33-08.mp4": "/Rakodi/static/media/video_2025-03-15_02-33-08.7845fdeee8e34f0336de.mp4",
     "static/media/video_2025-03-09_15-42-53.mp4": "/Rakodi/static/media/video_2025-03-09_15-42-53.234e95ead5934b7294f1.mp4",
     "static/media/baba.svg": "/Rakodi/static/media/baba.4faf279eade70e38e8f417684cceb286.svg",
@@ -139,10 +139,10 @@
     "static/media/Line 28.svg": "/Rakodi/static/media/Line 28.51be2197ef12bb0604f945b279c81b66.svg",
     "static/media/Line 32.svg": "/Rakodi/static/media/Line 32.a2b7226a6dffb349eb74939acd663fed.svg",
     "main.34d6c57f.css.map": "/Rakodi/static/css/main.34d6c57f.css.map",
-    "main.5f0547ae.js.map": "/Rakodi/static/js/main.5f0547ae.js.map"
+    "main.313ddd71.js.map": "/Rakodi/static/js/main.313ddd71.js.map"
   },
   "entrypoints": [
     "static/css/main.34d6c57f.css",
-    "static/js/main.5f0547ae.js"
+    "static/js/main.313ddd71.js"
   ]
 }
