@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Rakodi/static/css/main.89f82594.css",
-    "main.js": "/Rakodi/static/js/main.98902b96.js",
+    "main.css": "/Rakodi/static/css/main.f5359c5e.css",
+    "main.js": "/Rakodi/static/js/main.0ed84f15.js",
     "static/media/video_2025-03-15_02-33-08.mp4": "/Rakodi/static/media/video_2025-03-15_02-33-08.7845fdeee8e34f0336de.mp4",
     "static/media/video_2025-03-09_15-42-53.mp4": "/Rakodi/static/media/video_2025-03-09_15-42-53.234e95ead5934b7294f1.mp4",
     "static/media/baba.svg": "/Rakodi/static/media/baba.4faf279eade70e38e8f417684cceb286.svg",
@@ -95,6 +95,7 @@
     "static/media/2.svg": "/Rakodi/static/media/2.bdb0ebbe53d232dee9bc54eccbe5935b.svg",
     "static/media/archive.svg": "/Rakodi/static/media/archive.e7279c4512ec3004fa82db3edfc32115.svg",
     "static/media/Group (6).svg": "/Rakodi/static/media/Group (6).9e45a3070164d5fbd53dce2dfcab643f.svg",
+    "static/media/Vector (14).svg": "/Rakodi/static/media/Vector (14).0fe7609ca9ae4d0f85fc0647441859a4.svg",
     "static/media/school.svg": "/Rakodi/static/media/school.073356d38e6d87180b5cd55bf652b888.svg",
     "static/media/Group (5).svg": "/Rakodi/static/media/Group (5).0f7b9738c8c66617812393af4deb1ea1.svg",
     "static/media/Group (7).svg": "/Rakodi/static/media/Group (7).bca64dbd3fef0f7a88a9c1214b130be2.svg",
@@ -138,11 +139,11 @@
     "static/media/Vector (11).svg": "/Rakodi/static/media/Vector (11).8bf5fc45a30afc75b1e856b2c6b1aff7.svg",
     "static/media/Line 28.svg": "/Rakodi/static/media/Line 28.51be2197ef12bb0604f945b279c81b66.svg",
     "static/media/Line 32.svg": "/Rakodi/static/media/Line 32.a2b7226a6dffb349eb74939acd663fed.svg",
-    "main.89f82594.css.map": "/Rakodi/static/css/main.89f82594.css.map",
-    "main.98902b96.js.map": "/Rakodi/static/js/main.98902b96.js.map"
+    "main.f5359c5e.css.map": "/Rakodi/static/css/main.f5359c5e.css.map",
+    "main.0ed84f15.js.map": "/Rakodi/static/js/main.0ed84f15.js.map"
   },
   "entrypoints": [
-    "static/css/main.89f82594.css",
-    "static/js/main.98902b96.js"
+    "static/css/main.f5359c5e.css",
+    "static/js/main.0ed84f15.js"
   ]
 }
