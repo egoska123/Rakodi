@@ -427,6 +427,12 @@
             flex-direction: column;
             gap: 2.22vw;
 
+            .lpartPSBottom{
+                display: flex;
+                flex-direction: column;
+                gap: 1.52vw;
+            } 
+
             .lpartPSTop {
                 .psImgMob {
                     display: none;
@@ -638,10 +644,15 @@
 .endTop {
     display: flex;
     align-items: center;
-    padding-left: 9.72vw;
+    padding-left: 4.44vw;
     gap: 11.25vw;
 }
+
+.endTextMob {
+    display: none;
+}
 .endText {
+    position: absolute;
     -webkit-text-stroke-width: 0.138vw;
     -webkit-text-stroke-color: var(--accent-cypherpunk, #02D7F2);
     font-family: Vezla;
@@ -649,6 +660,12 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+.recEnd {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .bannerEnd {
@@ -1383,9 +1400,23 @@
             .recEnd {
                 display: none;
             }
-            p {
+
+            .endText {
+                display: none;
+            }
+            .endTextMob {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                position: static;
                 font-size: 12.2vw;
                 -webkit-text-stroke-width: 0.25vw;
+                margin-bottom: 8.2vw;
+
+                -webkit-text-stroke-color: var(--accent-cypherpunk, #02D7F2);
+                font-family: Vezla;
+                font-style: normal;
+                font-weight: 400;
             }
         }
         .bannerEnd {
