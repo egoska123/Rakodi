@@ -79,7 +79,7 @@ const Home = () => {
                     <img className={styles.logo} src={logo}/>
                     <div className={styles.navBar}>
                         <div className={styles.navElement}>
-                            <Link to="/"><span className={styles.act}>Экосистема</span></Link>
+                            <Link to="/Rakodi/"><span className={styles.act}>Экосистема</span></Link>
                             <span className={styles.noAct}>/</span>
                         </div>
                         <div className={styles.navElement}>
@@ -103,7 +103,7 @@ const Home = () => {
                 <div className={styles.hed} style={{ height: `${headerHeight}px` }}></div>
                 <div className={`${styles.menuCont}`}>
                     <div className={menuVisible ? styles.menuVisible : styles.menu}>
-                        <Link to="/" className={styles.linkBtn}>Экосистема</Link>
+                        <Link to="/Rakodi/" className={styles.linkBtn}>Экосистема</Link>
                         <Link to="/guild" className={styles.linkBtn}>Гильдия</Link>
                         <Link to="token" className={`${styles.menBtn3} ${styles.linkBtn}`}>Криптотокен</Link>
                     </div>

@@ -1,3 +1,9 @@
+.Global{
+    overflow-x: hidden;
+    max-width: 100%;
+    background-color: #0B0B0F;
+
+
 .headerHome {
     width: 100%;
     position: absolute;
@@ -1774,6 +1780,7 @@
                             display: none;
                         }
                         .textInvMob {
+                            display: block;
                             font-size: 4.1vw;
                             color: #FFF;
                             font-family: Inter;
@@ -1793,6 +1800,7 @@
                             display: none;
                         }
                         .textSpecMob {
+                            display: block;
                             font-size: 4.1vw;
                             color: #FFF;
                             font-family: Inter;
@@ -1927,4 +1935,5 @@
         }
     }
 
+}
 }

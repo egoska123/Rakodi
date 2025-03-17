@@ -7,6 +7,12 @@
   box-sizing: border-box;
 }
 
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+  max-width: 100vw;
+} 
+
 @font-face {
   font-family: 'Vezla'; /* Имя шрифта */
   src: url('./fonts/Vezla.ttf') format('truetype');

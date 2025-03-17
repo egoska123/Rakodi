@@ -5,12 +5,13 @@ import Guild from './pages/guild/guild';
 import CrypToken from './pages/CrypToken/CrypToken';
 import ScrollTo from './pages/ScrollTo';
 
+
 function App() {
   return (
     <Router>
       <ScrollTo/>
       <Routes>
-        <Route path="/" element={<Home />}/>
+        <Route path="/Rakodi/" element={<Home />}/>
         <Route path='/guild' element={<Guild/>}/>
         <Route path='/token' element={<CrypToken/>}/>
       </Routes>

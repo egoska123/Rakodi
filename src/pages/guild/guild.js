@@ -31,6 +31,7 @@ import lineL from "../../images/homeImg/Line 28.svg"
 import lineB from "../../images/guildImg/Line 29 (1).svg"
 import probSolMob from "../../images/guildImg/Frame 3545 (4).svg"
 import borderEndMob from "../../images/guildImg/Vector (11).svg"
+import smileMob from "../../images/guildImg/Vector (14).svg"
 
 
 
@@ -86,7 +87,7 @@ const Guild = () => {
                     <img className={styles.logo} src={logo}/>
                     <div className={styles.navBar}>
                         <div className={styles.navElement}>
-                            <Link to="/"><span className={styles.noAct}>Экосистема</span></Link>
+                            <Link to="/Rakodi/"><span className={styles.noAct}>Экосистема</span></Link>
                             <span className={styles.noAct}>/</span>
                         </div>
                         <div className={styles.navElement}>
@@ -110,7 +111,7 @@ const Guild = () => {
                 <div className={styles.hed} style={{ height: `${headerHeight}px` }}></div>
                 <div className={`${styles.menuCont}`}>
                     <div className={menuVisible ? styles.menuVisible : styles.menu}>
-                        <Link to="/" className={styles.linkBtn}>Экосистема</Link>
+                        <Link to="/Rakodi/" className={styles.linkBtn}>Экосистема</Link>
                         <Link to="/guild" className={styles.linkBtn}>Гильдия</Link>
                         <Link to="/token" className={`${styles.menBtn3} ${styles.linkBtn}`}>Криптотокен</Link>
                     </div>
@@ -352,7 +353,10 @@ const Guild = () => {
 
 Мы возьмём лишь время и внимание наших <br/>  дорогих путников. А это для нас - бесценно.
                             </p>
-                            <div className={styles.smileCont}><img src={smile}/></div>
+                            <div className={styles.smileCont}>
+                                <img className={styles.smileImg} src={smileMob}/>
+                                <img className={styles.smileImgMob} src={smileMob}/>
+                            </div>
                         </div>
                 </div>
                 <div className={styles.end}>

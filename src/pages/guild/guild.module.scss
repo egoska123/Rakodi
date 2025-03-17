@@ -1,7 +1,9 @@
-body {
+.Global {
     background-color: #0B0B0F;
     overflow-x: hidden;
+    max-width: 100%;
 }
+
 
 .headerHome {
     width: 100%;
@@ -612,15 +614,20 @@ body {
 }
 
 .smileCont {
-    position: relative;
     display: flex;
-    align-items: center;
-    img {
-        position: absolute;
-        left: -29%;
-        margin-top: 16.22vw;
-        width: 75.48vw;
-        height: 73.05vw;
+    justify-content: center;
+    max-width: 100%;
+    overflow-x: hidden;
+
+    .smileImgMob {
+        display: none;
+    }
+    .smileImg {
+        // position: absolute;
+        // left: -29%;
+        // margin-top: 16.22vw;
+        width: 19.93vw;
+        height: 19.93vw;
     }
 }
 
@@ -1327,22 +1334,31 @@ body {
             }
 
             .smileCont {
-                position: absolute;
-                img {
-                    margin-top: 90vw;
-                    margin-left: 210vw;
-                    position: relative;
-                    width: 151.28vw;
-                    height: 151.28vw;
+                
+                .smileImgMob {
+                    display: block;
+                    width: 51.28vw;
+                    height: 51.28vw;
                 }
+                .smileImg {
+                    display: none;
+                }
+                // img {
+                //     margin-top: 110vw;
+                //     margin-left: 210vw;
+                //     position: relative;
+                //     width: 151.28vw;
+                //     height: 151.28vw;
+                // }
             }
 
             .datesTextMob {
                 display: block;
+                position: static;
                 color: #FFF;
                 font-family: Inter;
                 margin-top: 5.64vw;
-                margin-bottom: 50.64vw;;
+                margin-bottom: 6.15vw;;
                 font-size: 4.1vw;
                 line-height: normal;
 
