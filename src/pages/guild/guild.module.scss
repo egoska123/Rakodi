@@ -1,0 +1,1531 @@
+body {
+    background-color: #0B0B0F;
+    overflow-x: hidden;
+}
+
+.headerHome {
+    width: 100%;
+    position: absolute;
+    z-index: 5;
+    padding: 2.083vh 2.22vw;
+    background: var(--Bg-dark-blue, #0B0B0F);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 7.91vw;
+    height: 1.87vw;
+}
+
+.navBar {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.navElement {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    gap: 3px;
+    text-decoration: none; /* Убираем подчеркивание на уровне .navElement */
+}
+
+.navElement a {
+    font-family: Inter;
+    // font-size: сlamp(10px, 1.11vw, 1.11vw);
+    font-size: 1.11vw;
+    font-weight: 400;
+    text-decoration: none; /* Убираем подчеркивание для ссылок */
+ /* Ссылка будет наследовать цвет от родителя */
+}
+
+.navElement span {
+    text-decoration: none;
+}
+
+.noAct {
+    color: var(--Quarternary, #B0B3BB); /* Это цвет текста для всего элемента */
+    text-align: center;
+    font-family: Inter;
+    font-size: 1.11vw;
+    // font-size: сlamp(10px, 1.11vw, 1.11vw);
+    font-weight: 400;
+} 
+
+.act {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 1.11vw;
+    // font-size: сlamp(10px, 1.11vw, 1.11vw);
+    font-weight: 400;
+}
+
+.contacts {
+    display: flex;
+    align-items: center;
+    gap: 0.6039vw;
+
+    img {
+        cursor: pointer;
+        width: 2.498vw;
+        height: 2.498vw;
+    }
+}
+
+.contactButon {
+    padding: 0.277vw 0.832vw;
+    display: flex;
+    align-items: center;
+    gap: 0.83vw;
+    justify-content: center;
+    border-radius: 1.1vw;
+    border: 1px solid var(--Tertiary, #999EA4);
+    color: var(--Tertiary, #999EA4);
+    font-family: Inter;
+    font-size: 1.1vw;
+    font-weight: 400;
+    line-height: 2.49vw; 
+    text-decoration: none;
+
+    img {
+        width: 1.8vw;
+        height: 1.8vw;
+    }
+}
+
+.menuBtn {
+    display: none;
+}
+
+.hed {
+    
+}
+
+.menuCont {
+    display: none;
+}
+
+.menu {
+    width: 100%;
+    border-radius: 0px 0px 8.2vw 8.2vw;
+    border-bottom: 1px solid #02D7F2;
+    background: #0B0B0F;
+    position: absolute;
+    transform: translateY(-200%); 
+    opacity: 0; 
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+
+    .menuVisible {
+        width: 100%;
+        position: absolute;
+        z-index: 2;
+        border-radius: 0px 0px 8.2vw 8.2vw;
+        border-bottom: 1px solid #02D7F2;
+        background: #0B0B0F;
+        transform: translateY(0%); /* Меню появляется */
+        opacity: 1; /* Меню становится видимым */
+        transition: transform 0.3s ease, opacity 0.3s ease;
+    }
+    
+
+    .linkBtn {
+        all: unset; /* Убирает все стили по умолчанию */
+        width: 100%;
+        padding: 2.56vw 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: transparent;
+        border: none;
+        color: #FFF;
+        font-family: Inter;
+        font-size: 4.10vw;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px; /* 175% */
+
+    .menBtn3 {
+        border-radius: 0px 0px 32px 32px;
+        border-bottom: 1px solid var(--stoke-pink, #E396DF);
+    }
+}
+.mainFirst {
+    display: flex;
+    padding: 0 2.22vw 2.22vw 2.22vw ;
+    background-image: url("../../images/guildImg/Frame\ 3395\ \(2\).svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    margin-bottom: 6.66vw;
+
+    .lpartMainF {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 4.44vw;
+    }
+
+    .guildText {
+        -webkit-text-stroke-width: 0.1388vw;
+        -webkit-text-stroke-color: var(--accent-cypherpunk, #02D7F2);
+        font-family: Vezla;
+        font-size: 8.88vw;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .guildBlock {
+        display: flex;
+        position: relative;
+        padding: 1.66vw 2.22vw;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        background: #1E284E80;
+
+        color: var(--accent-cypherpunk, #02D7F2);
+        font-family: Vezla;
+        font-size: 2.77vw;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 4.16vw; /* 150% */
+
+        .borderB {
+            position: absolute;
+            bottom: -0.3%;
+            left: -0.3%;
+            width: 14.09vw;
+            height: 5.55vw;
+        }
+        .borderT {
+            position: absolute;
+            top: -0.1%;
+            right: 0%;
+            width: 14.09vw;
+            height: 5.55vw;
+        }
+    }
+
+    .guildBlockMob {
+        display: none;
+    }
+
+    .video {
+        background-image: url("../../images/guildImg/Stroke_guild.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 92.5%;
+        padding: 2.22vw;
+
+        .vidMob {
+            display: none;
+        }
+    }
+
+}
+
+.mainSecond {
+    padding: 2.7vw 0;
+    margin-bottom: 6.66vw;
+
+    .mainSecondTop {
+        display: flex;
+        gap: 2.77vw;
+        align-items: center;
+        padding-left: 3.33vw;
+        margin-bottom: 1.66vw;
+
+        .rectanglesB {
+            display: flex;
+            gap: 0.2vw;
+        }
+    }
+
+    .teamText {
+        -webkit-text-stroke-width: 0.1388vw;
+        -webkit-text-stroke-color: var(--accent-cypherpunk, #02D7F2);
+        font-family: Vezla;
+        font-size: 6.66vw;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .mainSecondBottom {
+        display: flex;
+        gap: 2.22vw;
+        padding: 0 2.22vw 2.7vw 2.22vw;
+
+        img {
+            width: 46.66vw;
+            height: 27.77vw;
+        }
+    }
+}
+
+.mainThird {
+    background-image: url("../../images/guildImg/Frame 3389.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 255.9vw;
+
+    .concText {
+        -webkit-text-stroke-width: 0.1388vw;
+        -webkit-text-stroke-color: #FCEE0A;
+        font-family: Vezla;
+        font-size: 6.66vw;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+
+        .rectanglesY {
+            display: flex;
+            gap: 0.2vw;
+        }
+    }
+
+    .mainThirdConc {
+        display: flex;
+        gap: 2.22vw;
+        align-items: center;
+        margin-bottom: 2.22vw;
+    }
+
+    .dialog {
+        background-image: url("../../images/guildImg/dialog.svg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 49.23vw;
+        width: 54.79vw;
+        position: relative;
+    }
+
+    .babaBlock {
+        display: flex;
+        padding: 0 2.22vw;
+        gap: 3.33vw;
+        align-items: flex-start;
+        margin-bottom: 8.88vw;
+
+        .babaMob {
+            display: none;
+        }
+
+        img {
+            width: 37.15vw;
+            height: 37.15vw;
+        }
+    }
+
+    .dialogTop {
+        position: absolute;
+        top:5.5%;
+        left: 12%;
+        color: var(--accent-yellow, #FCEE0A);
+        font-family: Inter;
+        font-size: 1.66vw;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 2.5vw; /* 150% */
+    }
+
+    .dialogBottom {
+        position: absolute;
+        bottom: 6%;
+        left: 9%;
+        color: var(--accent-yellow, #FCEE0A);
+        font-family: Inter;
+        font-size: 1.66vw;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 2.5vw; /* 150% */
+    }
+
+    .socialLift {
+        padding: 0 4.44vw;
+        display: flex;
+        flex-direction: column;
+        gap: 2.2vw;
+    }
+
+    .socialLiftText {
+        color: var(--accent-cypherpunk, #02D7F2);
+        text-align: center;
+        font-family: Vezla;
+        font-size: 2.77vw;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .socialLiftBlock {
+        display: flex;
+        gap: 1.8vw;
+    }
+
+    .socialLiftBlockMob {
+        display: none;
+    }
+
+    .arrow {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        img {
+            width: 8.95vw;
+        }
+    }
+
+    .babyBlock {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        img {
+            width: 13.3vw;
+            height: 13.3vw;
+        }
+    }
+
+    .socialLiftT {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #FFF;
+        font-family: Tomorrow;
+        font-size: 1.66vw;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 2.5vw; /* 150% */
+        margin-bottom: 8.88vw;
+    }
+
+    .socialLiftTextMob {
+        display: none;
+    } 
+
+    .probSol {
+        padding: 2.22vw 4.44vw;
+        display: flex;
+        gap: 2.94vw;
+        margin-bottom: 8.88vw;
+
+        .lpartPS {
+            display: flex;
+            flex-direction: column;
+            gap: 2.22vw;
+
+            .lpartPSTop {
+                .psImgMob {
+                    display: none;
+                }
+            }
+        }
+
+        .lpartPSTop{
+            display: flex;
+            flex-direction: column;
+            gap: 1.52vw;
+        }
+        .problem {
+            color: var(--accent-cypherpunk, #02D7F2);
+            font-family: Vezla;
+            font-size: 3.33vw;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 2.5vw; /* 75% */
+        } 
+
+        .problemTextMob {
+            display: none;
+        }
+        .problemText {
+            color: #FFF;
+            font-family: Inter;
+            font-size: 1.66vw;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 2.22vw; /* 133.333% */
+        }
+    }
+
+    .psImgMob {
+        display: none;
+    }
+    .probSolImg {
+        // background-image: url("../../images/guildImg/Stroke№2forimg.svg");
+        // background-position: center;
+        // background-repeat: no-repeat;
+        // background-size: 101%;
+        display: flex;
+        justify-content: flex-end;
+        .psImg {
+            width: 44.74vw;
+            height: 82.73vw;
+        }
+    
+    }
+
+    .bannerM3 {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2.7vw;
+    }
+
+    .banners {
+        display: none;
+    }
+
+    .bannerImg {
+        width: 87.5vw;
+        height: 48.95vw;
+        position: absolute;
+    }
+
+    .bannerText {
+        position: relative;
+        top: 100%;
+        left: 0%;
+        color: #FFF;
+        font-family: Inter;
+        font-size: 1.66vw;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 2.5vw; /* 150% */
+        margin-top: 8.22vw;
+    }
+
+    
+}
+
+.AboutGuild {
+    margin-top: 6.66vw;
+    margin-bottom: 6.66vw;
+}
+
+.AboutGuildTitle {
+    padding: 0.694vw 0;
+    display: flex;
+    justify-content: center;
+    -webkit-text-stroke-width: 0.138vw;
+    -webkit-text-stroke-color: var(--accent-cypherpunk, #02D7F2);
+    font-family: Vezla;
+    font-size: 6.66vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.AboutGuildTitleMob {
+    display: none;
+}
+
+.AboutGuildCont {
+    padding: 0 2.22vw;
+}
+
+.laprtAboutGuild {
+    padding: 0 2.22vw;
+
+} 
+
+.AboutGuildCont {
+    padding: 0 2.22vw;
+    display: flex;
+}
+
+.laprtAboutGuild {
+    padding: 0 2.22vw;
+    border-right: 1px solid #02D7F2;
+
+} 
+
+.dates {
+    color: var(--accent-cypherpunk, #02D7F2);
+    font-family: Vezla;
+    font-size: 3.33vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.5vw; /* 75% */
+}
+
+.datesTextMob {
+    display: none;
+}
+
+.datesText {
+    padding: 1.52vw 0;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1.66vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.5vw; /* 150% */
+
+    span {
+        color: #18C8FF;
+    }
+}
+
+.ytButton {
+    display: flex;
+    gap: 0.83vw;
+    padding: 0.83vw 1.66vw;
+    
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-radius: 1.11vw;
+    border: 1px solid var(--accent-cypherpunk, #02D7F2);
+    background: var(--Bg-dark-blue, #0B0B0F);
+    cursor: pointer;
+
+    p {
+        color: var(--accent-cypherpunk, #02D7F2);
+        font-family: Inter;
+        font-size: 2.22vw;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 2.5vw; /* 112.5% */
+    }
+}
+
+.lineAG {
+    background-color: #02D7F2;
+    height: 100%;
+    width: 1px;
+}
+
+.rpartAboutGuild {
+    padding: 0 2.22vw;
+
+}
+
+.smileCont {
+    position: relative;
+    display: flex;
+    align-items: center;
+    img {
+        position: absolute;
+        left: -29%;
+        margin-top: 16.22vw;
+        width: 75.48vw;
+        height: 73.05vw;
+    }
+}
+
+.end {
+    margin-top: 13.2vw;
+}
+
+.endTop {
+    display: flex;
+    align-items: center;
+    padding-left: 9.72vw;
+    gap: 11.25vw;
+}
+.endText {
+    -webkit-text-stroke-width: 0.138vw;
+    -webkit-text-stroke-color: var(--accent-cypherpunk, #02D7F2);
+    font-family: Vezla;
+    font-size: 6.66vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.bannerEnd {
+    display: flex;
+    padding: 2.22vw 0;
+    justify-content: center;
+
+    .borderEnd1Mob, .borderEnd2Mob, .borderEnd3Mob, .borderEnd4Mob {
+        display: none;
+    }
+
+    .bannerEndContMob {
+        display: none;
+    }
+}
+
+.bannerEndCont {
+    padding: 1.66vw 2.22vw;
+    // background-image: url("../../images/guildImg/Frame_end.svg");
+    background: rgba(30, 40, 78, 0.50);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1.66vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.5vw; /* 150% */
+}
+
+.recEnd {
+    display: flex;
+    gap: "0.2vw";
+}
+
+.borderEnd1 {
+    position: absolute;
+    z-index: 2;
+    width: 1.59vw;
+    height: 1.66vw;
+    left: 11.6%;
+
+}
+.borderEnd2 {
+    position: absolute;
+    z-index: 2;
+    width: 1.59vw;
+    height: 1.66vw;
+    right: 11.6%;
+    rotate: 90deg;
+}
+.borderEnd3 {
+    position: absolute;
+    z-index: 2;
+    width: 1.59vw;
+    height: 1.66vw;
+    left: 11.6%;
+    rotate: -90deg;
+    margin-top: 17.1vw;
+}
+
+.borderEnd4 {
+    position: absolute;
+    z-index: 2;
+    width: 1.59vw;
+    height: 1.66vw;
+    right: 11.6%;
+    rotate: 180deg;
+    margin-top: 17.1vw;
+}
+
+.endFindText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 6.66vw;
+    color: #FFF;
+    font-family: Vezla;
+    font-size: 4.44vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 5.55vw; /* 125% */
+}
+
+.footerHome {
+    background-image: url("../../images/homeImg/Footer (2).svg");
+    background-size: 100%;
+    height: 100%;
+    padding: 4.375vw 9.65vw;
+    display: flex;
+    
+
+
+    .lfooter {
+        display: flex;
+        align-items: center;
+    }
+
+    .logoF {
+        width: 23.19vw;
+        height: 5.48vw;
+    }
+
+    .links1 {
+        margin-left: 5vw;
+        display: flex;
+        flex-direction: column;
+        gap: 0.833vw;
+    }
+
+    .links2 {
+        margin-left: 9.51vw;
+        display: flex;
+        flex-direction: column;
+        gap: 0.833vw;
+    }
+
+    .linksMob {
+        display: none;
+    }
+
+    .email {
+        color: #FFF;
+        background-color: transparent;
+        font-family: Montserrat;
+        font-size: 1.66vw;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        cursor: pointer;
+        border: none;
+    }
+
+    .btnFooter {
+        display: flex;
+        align-items: flex-end;
+        color: #FFF;
+        background-color: transparent;
+        font-family: Montserrat;
+        font-size: 1.66vw;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        cursor: pointer;
+        border: none;
+
+        img {
+            width: 1.66vw;
+            height: 1.66vw;
+        }
+    }
+}
+
+@media (max-aspect-ratio: 3/4) {
+
+    // HEADER
+
+    .headerHome {
+        padding: 2.05vw 4.10vw;
+    }
+    .navBar{
+        display: none;
+    }
+    .contacts {
+        display: none;
+    }
+
+    .logo {
+        width: 25.89vw;
+        height: 6.15vw;
+    }
+
+    .menuBtn {
+        display: block;
+        background: transparent;
+        width: 10.25vw;
+        height: 10.25vw;
+        border: none;
+        cursor: pointer;
+
+        img {
+            width: 10.25vw;
+            height: 10.25vw;
+        }
+    }
+
+    .menuCont {
+        display: block;
+    }
+}
+
+// MAIN 1 MEDIA 
+
+@media (max-aspect-ratio: 3/4) {
+    .mainFirst {
+        padding: 2.56vw;
+        display: flex;
+        flex-direction: column;
+
+
+        .lpartMainF {
+            .guildText {
+                font-size: 16.41vw;
+                -webkit-text-stroke-width: 0.51vw;
+                margin-bottom: 4.100vw;
+            }
+            .guildBlock {
+                display: none;
+            }
+        }
+
+        .rpartMainF {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .vid {
+                display: none;
+            }
+
+            .video {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 91.7vw;
+                height: 91.7vw;
+                background-image: url("../../images/guildImg/Frame 1036 (3).svg");
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: 100%;
+                // padding: 2.22vw;
+                margin-bottom: 4.10vw;
+                .vidMob {
+                    display: block;
+                    width: 5vw;
+                    height: 5vw;
+                    width: 88.7vw;
+                    height: 88.7vw;
+                }
+            }
+
+            .guildBlockMob {
+                display: flex;
+                padding: 6.15vw 8.2vw;
+                position: relative;
+                justify-content: center;
+                align-items: center;
+                flex-shrink: 0;
+                background: #1E284E80;
+
+                color: var(--accent-cypherpunk, #02D7F2);
+                font-family: Vezla;
+                font-size: 5.12vw;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal; /* 150% */
+
+                .borderB {
+                    position: absolute;
+                    bottom: -0.3%;
+                    left: -0.3%;
+                    width: 23.84vw;
+                    height: 9.48vw;
+                }
+                .borderT {
+                    position: absolute;
+                    top: -0.1%;
+                    right: 0%;
+                    width: 23.84vw;
+                    height: 9.48vw;
+                    }
+                }
+            }
+        }
+    }
+
+// MAIN 2 MEDIA 
+
+@media (max-aspect-ratio: 3/4) {
+    .mainSecond {
+
+        .mainSecondTop {
+            display: flex;
+            justify-content: center;
+
+            .teamText {
+                font-size: 12.3vw;
+                -webkit-text-stroke-width: 0.25vw;
+                margin-bottom: 6.15vw;
+            }
+            .rectanglesB {
+                display: none;
+            }
+        }
+
+        .mainSecondBottom {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            img {
+                width: 87.69vw;
+                height: 53.33vw;
+            }
+        }
+    }
+}
+
+// MAIN 3 MEDIA 
+
+@media (max-aspect-ratio: 3/4) {
+    .mainThird {
+        background-image: url("../../images/guildImg/Frame 3545 (3).svg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+        height: 100%;
+        .mainThirdConc {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 8.2vw;
+            .rectanglesY {
+                display: none;
+            }
+
+            .concText {
+                font-size: 12.3vw;
+                -webkit-text-stroke-width: 0.25vw;
+            }
+        }
+
+        .babaBlock {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .babaMob {
+                display: block;
+                width: 69.23vw;
+                height: 69.23vw;
+            }
+            .baba {
+                display: none;
+            }
+
+            .dialog {
+                width: 91.15vw;
+                height: 100.89vw;
+
+                .dialogTop {
+                    top: 15%;
+                    left: 8%;
+                    font-size: 3.07vw;
+                    line-height: normal;
+                }
+                .dialogBottom {
+                    bottom: 16%;
+                    left: 6%;
+                    font-size: 3.07vw;
+                    line-height: normal;
+                }
+            }
+        }
+
+        .socialLift {
+            .socialLiftText {
+                display: none;
+            }
+
+            .socialLiftTextMob {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                color: var(--accent-cypherpunk, #02D7F2);
+                font-family: Vezla;
+                font-size: 6.15vw;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                margin-bottom: 8.88vw;
+            }
+
+            .socialLiftBlock {
+                display: none;
+            }
+
+            .socialLiftBlockMob {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-bottom: 4.1vw;
+
+                .socialLiftTopMob {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 2.05vw;
+
+                    .babyBlock {
+                        .socialLiftImg {
+                            width: 23.5vw;
+                            height: 23.5vw;
+                        }
+                        .socialLiftT {
+                            color: #FFF;
+                            text-align: center;
+                            font-family: Inter;
+                            font-size: 3.07vw;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            margin-bottom: 0;
+                        }
+                    }
+
+                    .arrow {
+                        width: 33.84vw;
+                        img {
+                            width: 33.84vw;
+                        }
+                    }
+                }
+
+                .socialLiftMidMob {
+                    width: 100%;
+                    display: flex;
+                    padding-right: 13.2vw;
+                    justify-content: flex-end;
+                    img {
+                        height: 11.28vw;
+                    }
+                }
+
+                .socialLiftBottomMob {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 2.05vw;
+
+                    .babyBlock {
+                        .socialLiftImg {
+                            width: 23.5vw;
+                            height: 23.5vw;
+                        }
+                        .socialLiftT {
+                            color: #FFF;
+                            text-align: center;
+                            font-family: Inter;
+                            font-size: 3.07vw;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            margin-bottom: 0;
+                        }
+                    }
+
+                    .arrow {
+                        width: 33.84vw;
+                        img {
+                            rotate: 180deg;
+                            width: 33.84vw;
+                        }
+                    }
+                }
+            }
+        }
+
+        .probSol {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .lpartPS {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .psImgMob {
+                    margin-bottom: 6.15vw;
+                    margin-top: 6.15vw;
+                    display: block;
+                    width: 87.79vw;
+                    height: 118.56vw;
+                }
+
+                .lpartPSTop {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 5.64vw;
+                    .problem {
+                        font-size: 9.23vw
+                    }
+                    .problemText {
+                        display: none;
+                    }
+                    .problemTextMob {
+                        display: flex;
+                        width: 100%;
+                        font-size: 4.1vw;
+                        color: #FFF;
+                        line-height: normal;
+                        font-family: Inter;
+                        font-style: normal;
+                        font-weight: 400;
+                    }
+                }
+
+                .lpartPSBottom {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 5.64vw;
+                    .problem {
+                        font-size: 9.23vw
+                    }
+                    .problemText {
+                        display: none;
+                    }
+                    .problemTextMob {
+                        display: flex;
+                        width: 100%;
+                        font-size: 4.1vw;
+                        color: #FFF;
+                        line-height: normal;
+                        font-family: Inter;
+                        font-style: normal;
+                        font-weight: 400;
+                    }
+                }
+            }
+        }
+        .probSolImg {
+            display: none;
+        }
+
+        .bannerM3 {
+            display: none;
+        }
+
+        .banners {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .bannerM3Mob1 {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 4.1vw;
+                width: 88.2vw;
+                height: 51.1vw;
+    
+                .bannerImg1 {
+                    position: absolute;
+                    // z-index: 1;
+                    width: 88.2vw;
+                    height: 51.1vw;
+                }
+                .bannerText1 {
+                    position: relative;
+                    // z-index: 3;
+                    color: #FFF;
+                    font-family: Inter;
+                    font-size: 3.07vw;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                }
+            }
+            .bannerM3Mob2 {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 4.1vw;
+                width: 88.2vw;
+                height: 51.1vw;
+    
+    
+                .bannerImg2 {
+                    position: absolute;
+                    // z-index: 1;
+                    width: 88.2vw;
+                    height: 51.1vw;
+                }
+
+                .bannerText2 {
+                    // z-index: 3;
+                    position: relative;
+                    color: #FFF;
+                    font-family: Inter;
+                    font-size: 3.07vw;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                }
+            }
+        }
+    }
+}
+
+
+// ABOUT US MEDIA 
+
+@media (max-aspect-ratio: 3/4) {
+
+    .AboutGuild {
+        display: flex;
+        justify-content: center;
+
+        .AboutGuildTitle {
+            display: none;
+        }
+        .AboutGuildTitleMob {
+            display: block;
+            -webkit-text-stroke-width: 0.25vw;
+            -webkit-text-stroke-color: var(--accent-cypherpunk, #02D7F2);
+            font-family: Vezla;
+            font-size: 12.3vw;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            margin-bottom: 4.71vw;
+        }
+    }
+
+    .AboutGuildCont {
+        display: flex;
+        flex-direction: column;
+
+        .laprtAboutGuild {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: none;
+
+            .dates {
+                font-size: 9.23vw;
+                line-height: 9.23vw;
+            }
+
+            .datesText {
+                display: none;
+            }
+
+            .datesTextMob {
+                display: block;
+                color: #FFF;
+                font-family: Inter;
+                margin-top: 5.64vw;
+                margin-bottom: 5.64vw;
+                font-size: 4.1vw;
+                line-height: normal;
+
+                span {
+                    color: #18C8FF;
+                }
+            }
+
+            .ytButton {
+                padding: 1.5vw 0;
+                border-radius: 3vw;
+                width: 82.79vw;
+                margin-bottom: 6.15vw;
+                p {
+                    font-size: 5.12vw;
+                }
+            }
+        }
+
+        .rpartAboutGuild {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: none;
+
+            .dates {
+                font-size: 9.23vw;
+                line-height: 9.23vw;
+            }
+
+            .datesText {
+                display: none;
+            }
+
+            .smileCont {
+                position: absolute;
+                img {
+                    margin-top: 90vw;
+                    margin-left: 210vw;
+                    position: relative;
+                    width: 151.28vw;
+                    height: 151.28vw;
+                }
+            }
+
+            .datesTextMob {
+                display: block;
+                color: #FFF;
+                font-family: Inter;
+                margin-top: 5.64vw;
+                margin-bottom: 50.64vw;;
+                font-size: 4.1vw;
+                line-height: normal;
+
+                span {
+                    color: #18C8FF;
+                }
+            }
+        }
+    }
+}
+
+// END MEDIA 
+
+@media (max-aspect-ratio: 3/4) {
+
+    .end {
+
+        .endTop {
+            display: flex;
+            justify-content: center;
+            padding-left: 0;
+            .recEnd {
+                display: none;
+            }
+            p {
+                font-size: 12.2vw;
+                -webkit-text-stroke-width: 0.25vw;
+            }
+        }
+        .bannerEnd {
+            .bannerEndCont, .borderEnd1, .borderEnd2, .borderEnd3, .borderEnd4 {
+                display: none;
+            }
+
+            .borderEnd1Mob{
+                display: block;
+                position: absolute;
+                margin-right: 81vw;
+                margin-top: -1vw;
+                width: 5.38vw;
+                height: 5.38vw;
+            }
+
+            .borderEnd2Mob{
+                display: block;
+                position: absolute;
+                margin-right: -81vw;
+                margin-top: -1vw;
+                width: 5.38vw;
+                height: 5.38vw;
+                rotate: 90deg;
+            }
+
+            .borderEnd3Mob{
+                display: block;
+                position: absolute;
+                margin-right: 81vw;
+                margin-top: 60vw;
+                width: 5.38vw;
+                height: 5.38vw;
+                rotate: -90deg;
+            }
+
+            .borderEnd4Mob{
+                display: block;
+                position: absolute;
+                margin-right: -81vw;
+                margin-top: 60vw;
+                width: 5.38vw;
+                height: 5.38vw;
+                rotate: 180deg;
+            }
+
+            .bannerEndContMob {
+                padding: 5.38vw 8.2vw;
+                background: rgba(30, 40, 78, 0.50);
+                display: block;
+                color: #FFF;
+                font-family: Inter;
+                font-size: 4.1vw;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+        }
+
+        .endFindText {
+            margin-top: 8.2vw;
+            font-size: 6.15vw;
+        }
+    }
+}
+
+//  FOOTER MEDIA
+
+@media (max-aspect-ratio: 3/4) {
+    .footerHome {
+        background-image: url("../../images/homeImg/Footer (1).svg");
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+        padding: 0;
+        border-top: 2px solid var(--Primary, #282B33);
+        .lfooter {
+            display: flex;
+            flex-direction: column;
+            padding: 4.1vw 4.1vw 8.2vw 4.1vw;
+            width: 100%;
+            align-items:normal;
+
+            .logoF {
+                width: 25.64vw;
+                height: 6.15vw;
+                margin-bottom: 3.07vw;
+                margin-left: 8vw;
+            }
+
+            .borderF {
+                width: 100%;
+                height: 0.0001px;
+                border: 1px solid #FFF;
+                margin-bottom: 2.05vw;
+            }
+
+        }
+
+        .links1 {
+            display: none;
+        }
+        .links2 {
+            display: none;
+        }
+
+        .linksMob {
+            width: 100%;
+            display: flex;
+            gap: 6.15vw;
+
+            .links1Mob {
+                display: flex;
+                flex-direction: column;
+                gap: 3.07vw;
+
+                .email, .btnFooter{
+                    display: flex;
+                    align-items: flex-end;
+                    color: #FFF;
+                    font-family: Montserrat;
+                    font-size: 4.1vw;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+
+                    img {
+                        width: 5.12vw;
+                        height: 5.12vw;
+                    }
+                }
+            }
+
+            .links2Mob {
+                display: flex;
+                flex-direction: column;
+                gap: 3.07vw;
+
+                .email, .btnFooter{
+                    display: flex;
+                    align-items: flex-end;
+                    color: #FFF;
+                    font-family: Montserrat;
+                    font-size: 4.1vw;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+
+                    img {
+                        width: 5.12vw;
+                        height: 5.12vw;
+                    }
+                }
+            }
+        }
+    }
+
+}

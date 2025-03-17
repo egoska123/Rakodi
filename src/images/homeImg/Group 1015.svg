@@ -1,0 +1,37 @@
+<svg width="80" height="61" viewBox="0 0 80 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 1015">
+<g id="Group 1013" filter="url(#filter0_i_178_298)">
+<path id="Line 14" d="M11 28.686V11" stroke="#E334DA" stroke-width="2" stroke-linecap="round"/>
+<path id="Line 17" d="M69.5002 28.686V11.4534" stroke="#E334DA" stroke-width="2" stroke-linecap="round"/>
+<path id="Line 15" d="M11.0959 28.8229L40.4381 50" stroke="#E334DA" stroke-width="2" stroke-linecap="round"/>
+<path id="Line 18" d="M11.0959 11.0002L40.4381 32.1773" stroke="#E334DA" stroke-width="2" stroke-linecap="round"/>
+<path id="Line 16" d="M69.4041 28.8229L40.4306 49.9999" stroke="#E334DA" stroke-width="2" stroke-linecap="round"/>
+<path id="Line 19" d="M69.4041 11.2827L40.4304 32.1774" stroke="#E334DA" stroke-width="2" stroke-linecap="round"/>
+</g>
+<g id="Group 1014" filter="url(#filter1_f_178_298)">
+<path id="Line 14_2" d="M11 28.686V11" stroke="#E396DF" stroke-width="2" stroke-linecap="round"/>
+<path id="Line 17_2" d="M69.5002 28.686V11.4534" stroke="#E396DF" stroke-width="2" stroke-linecap="round"/>
+<path id="Line 15_2" d="M11.0959 28.8229L40.4381 50" stroke="#E396DF" stroke-width="2" stroke-linecap="round"/>
+<path id="Line 18_2" d="M11.0959 11.0002L40.4381 32.1773" stroke="#E396DF" stroke-width="2" stroke-linecap="round"/>
+<path id="Line 16_2" d="M69.4041 28.8229L40.4306 49.9999" stroke="#E396DF" stroke-width="2" stroke-linecap="round"/>
+<path id="Line 19_2" d="M69.4041 11.2827L40.4304 32.1774" stroke="#E396DF" stroke-width="2" stroke-linecap="round"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_i_178_298" x="9.96509" y="10" width="60.5698" height="41.4491" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="16"/>
+<feGaussianBlur stdDeviation="0.3"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.890196 0 0 0 0 0.203922 0 0 0 0 0.854902 0 0 0 1 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_178_298"/>
+</filter>
+<filter id="filter1_f_178_298" x="0.665088" y="0.7" width="79.1698" height="59.4491" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="4.65" result="effect1_foregroundBlur_178_298"/>
+</filter>
+</defs>
+</svg>
