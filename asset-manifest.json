@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Rakodi/static/css/main.a8f322fe.css",
+    "main.css": "/Rakodi/static/css/main.8078b85e.css",
     "main.js": "/Rakodi/static/js/main.20998804.js",
     "static/media/video_2025-03-15_02-33-08.mp4": "/Rakodi/static/media/video_2025-03-15_02-33-08.7845fdeee8e34f0336de.mp4",
     "static/media/video_2025-03-09_15-42-53.mp4": "/Rakodi/static/media/video_2025-03-09_15-42-53.234e95ead5934b7294f1.mp4",
@@ -138,11 +138,11 @@
     "static/media/Vector (11).svg": "/Rakodi/static/media/Vector (11).8bf5fc45a30afc75b1e856b2c6b1aff7.svg",
     "static/media/Line 28.svg": "/Rakodi/static/media/Line 28.51be2197ef12bb0604f945b279c81b66.svg",
     "static/media/Line 32.svg": "/Rakodi/static/media/Line 32.a2b7226a6dffb349eb74939acd663fed.svg",
-    "main.a8f322fe.css.map": "/Rakodi/static/css/main.a8f322fe.css.map",
+    "main.8078b85e.css.map": "/Rakodi/static/css/main.8078b85e.css.map",
     "main.20998804.js.map": "/Rakodi/static/js/main.20998804.js.map"
   },
   "entrypoints": [
-    "static/css/main.a8f322fe.css",
+    "static/css/main.8078b85e.css",
     "static/js/main.20998804.js"
   ]
 }
